@@ -9,8 +9,9 @@ keystone starter kit 是一个基于 keystone.js@4.0.0 开发模板。它在 key
 
 ### 安装 mongodb
 本文推荐使用 docker 来安装 mongodb 依赖
-1. 下载 MongoDB 镜像 `docker pull mongo:3.2`
-2. 启动 MongoDB 容器 `docker run --name mongo32 -p 27017:27017 -v /data/db:/data/db -d mongo:3.2`
+1. 安装 docker 社区版 <https://docs.docker-cn.com/engine/installation/>
+2. 下载 MongoDB 镜像 `docker pull mongo:3.2`
+3. 启动 MongoDB 容器 `docker run --name mongo32 -p 27017:27017 -v /data/db:/data/db -d mongo:3.2`
 
 ### 安装依赖包
 ```
