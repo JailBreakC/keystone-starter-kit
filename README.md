@@ -47,7 +47,9 @@ npm run watch
 ## 更多
 
 ### 发布构建
-`npm run build`
+```
+npm run build
+```
 `public/js` 目录下的代码，会被自动编译到 `public/dist` 目录下
 webpack 会自动将加过 hash 之后的 js/css 替换到模板中去
 
