@@ -1,0 +1,14 @@
+{{!< default}} 
+{{#contentFor 'pageStyles'}}
+  {{>style/index}}
+{{/contentFor}}
+<div>
+  PC 端页面主体
+  {{#each indexPageList }}
+    <h1>{{title}}</h1>
+    <p>{{describ}}</p>
+  {{/each}}
+</div>
+{{#contentFor 'pageScripts'}}
+  {{>js/index}}
+{{/contentFor}}
